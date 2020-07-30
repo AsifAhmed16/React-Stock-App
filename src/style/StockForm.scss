@@ -1,0 +1,57 @@
+.modal {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.s_cancel {
+    min-width: 150px;
+    border: solid 1px gray;
+    border-radius: 0.3em;
+    padding: 0.5em;
+    margin: 0.5em;
+    font-size: 10pt;
+    background: orangered;
+    color: white;
+}
+
+.s_submit {
+    content: "Add";
+    min-width: 150px;
+    border: solid 1px gray;
+    border-radius: 0.3em;
+    padding: 0.5em;
+    margin: 0.5em;
+    font-size: 10pt;
+    background: cadetblue;
+    color: white;
+}
+
+.s_submit:after {
+    content: "ADD";
+    visibility: visible;
+    background: cadetblue;
+    color: white;
+}
+
+.s_submit:disabled,
+.s_submit[disabled] {
+    content: "Please Wait";
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+}
+
+.s_submit[disabled]:after {
+    content: "Please Wait";
+    visibility: visible;
+    background-color: #cccccc;
+    color: #666666;
+}
+
+.s_input {
+    min-width: 400px;
+    border: solid 1px gray;
+    border-radius: 0.3em;
+    padding: 0.5em;
+    margin: 0.5em;
+    font-size: 10pt;
+}

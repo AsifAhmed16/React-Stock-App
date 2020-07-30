@@ -1,0 +1,62 @@
+.all_items {
+    width: 100%;
+    border-radius: 0.3em;
+    padding: 3em;
+    margin-bottom: 3em;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.p_div label {
+    display: inline-block;
+}
+
+.master_div {
+    float: left;
+    clear: none; 
+}
+
+.p_items {
+    width: 80%;
+    border: solid 1px gray;
+    border-radius: 0.3em;
+    padding: 3em;
+    margin-bottom: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.curr_btn {
+    min-width: 150px;
+    border: solid 1px gray;
+    border-radius: 0.3em;
+    padding: 0.5em;
+    margin: 2em;
+    font-size: 10pt;
+    background: blueviolet;
+    color: white;
+}
+
+.refresh_btn {
+    min-width: 150px;
+    border: solid 1px gray;
+    border-radius: 0.3em;
+    padding: 0.5em;
+    margin: 2em;
+    font-size: 10pt;
+    background: green;
+    color: white;
+}
+
+.graph_btn {
+    min-width: 150px;
+    border: solid 1px gray;
+    border-radius: 0.3em;
+    padding: 0.5em;
+    margin: 2em;
+    font-size: 10pt;
+    background: olive;
+    color: white;
+}
